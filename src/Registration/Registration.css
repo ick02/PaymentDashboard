@@ -1,0 +1,97 @@
+/* Add these styles to your existing style.css */
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(112, 112, 241);
+}
+
+.form {
+  width: 450px; /* Increase the width */
+  height: 550px; /* Increase the height */
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.form-name {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Rest of your styles remain the same */
+
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-size: 16px; 
+    font-weight: bold;
+  }
+  
+  input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px; 
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .checkbox input {
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: darkblue;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+ 
+  .form label,
+  .form input,
+  .checkbox,
+  button,
+  p {
+    margin-bottom: 15px;
+  }
+  
+
+  .checkbox input:checked + label::before {
+    content: '\2713';
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
